@@ -1,0 +1,24 @@
+{
+  "item.elixiradventures.iron_apple": "Iron Apple",
+  "item.elixiradventures.diamond_apple": "Diamond Apple",
+  "item.elixiradventures.emerald_apple": "Emerald Apple",
+  "item.elixiradventures.uncharged_pickaxe": "Uncharged Pickaxe",
+  "item.elixiradventures.charged_pickaxe_t1": "Charged Pickaxe Level I",
+  "item.elixiradventures.charged_pickaxe_t2": "Charged Pickaxe Level II",
+  "item.elixiradventures.charged_pickaxe_t3": "Charged Pickaxe Level III",
+  "item.elixiradventures.charged_pickaxe_t4": "Charged Pickaxe Level IV",
+  "item.elixiradventures.overcharged_pickaxe": "Overcharged Pickaxe",
+  "effect.elixiradventures.charged": "Charged",
+
+  "item.elixiradventures.charged.tooltip1": "This item is not overcharged!",
+  "item.elixiradventures.charged.tooltip2": "When overcharged, %s + attack to summon lightning bolts, destroying the item",
+
+  "item.elixiradventures.charged.tooltip3": "This item is overcharged!",
+  "item.elixiradventures.charged.tooltip4": "%s + attack to summon lightning bolts!",
+
+  "block.elixiradventures.compressed_iron_block": "Compressed Iron Block",
+
+  "key.category.elixiradventures.general": "General Keybindings",
+  "key.elixiradventures.use_overcharge": "Use overcharge ability",
+  "itemgroup.elixiradventures": "elixiradventures"
+}

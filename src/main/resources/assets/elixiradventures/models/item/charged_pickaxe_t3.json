@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "elixiradventures:item/charged_pickaxe_3"
+  }
+}
