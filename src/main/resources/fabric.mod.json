@@ -20,7 +20,7 @@
 		],
 		"client": ["net.hsneptune.elixiradventures.ElixirAdventuresClient"],
 		"fabric-datagen": [
-			"net.hsneptune.elixiradventures.ElixirAdventuresDataGenerator"
+			"net.hsneptune.elixiradventures.ElixirAdventuresGenerator"
 		]
 	},
 	"mixins": [
