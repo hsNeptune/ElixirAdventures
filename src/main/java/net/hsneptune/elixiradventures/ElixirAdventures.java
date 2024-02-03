@@ -17,6 +17,6 @@ public class ElixirAdventures implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello1!w111");
+		LOGGER.info("Hello1!sadsdaw111");
 	}
 }
