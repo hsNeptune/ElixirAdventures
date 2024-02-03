@@ -1,9 +1,9 @@
-package net.hsneptune.elixiradventures;
+package com.luckgod.luckyitems;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class ElixirAdventuresDataGenerator implements DataGeneratorEntrypoint {
+public class ElixirAdventuresGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

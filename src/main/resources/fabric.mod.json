@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "elixiradventures",
+	"id": "luckyitems",
 	"version": "${version}",
-	"name": "ElixirAdventures",
+	"name": "Lucky Items Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -11,23 +11,24 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/elixiradventures/icon.png",
+	"license": "MIT",
+	"icon": "assets/luckyitems/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.hsneptune.elixiradventures.ElixirAdventures"
+			"com.luckgod.luckyitems.LuckyItemsMod"
 		],
+		"client": ["com.luckgod.luckyitems.LuckyItemsClient"],
 		"fabric-datagen": [
-			"net.hsneptune.elixiradventures.ElixirAdventuresDataGenerator"
+			"com.luckgod.luckyitems.LuckyItemsDataGenerator"
 		]
 	},
 	"mixins": [
-		"elixiradventures.mixins.json"
+		"luckyitems.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
-		"minecraft": "~1.20.4",
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

@@ -1,9 +1,11 @@
 {
 	"required": true,
-	"package": "net.hsneptune.elixiradventures.mixin",
+	"package": "com.luckgod.luckyitems.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"LuckyItemsMixin",
+		"EntityMixin",
+		"LivingEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "luckyitems:block/compressed_iron_block"
+  }
+}
