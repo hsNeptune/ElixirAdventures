@@ -3,9 +3,11 @@
 	"id": "elixiradventures",
 	"version": "${version}",
 	"name": "Elixir Adventures",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod that's designed to add more items to the game to spice it up! Keep in mind that there may be bugs.",
 	"authors": [
-		"Me!"
+		"ImperfectCoder0",
+		"TheManeeter",
+		"yukiwassnatched"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
