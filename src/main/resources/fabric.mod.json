@@ -2,32 +2,35 @@
 	"schemaVersion": 1,
 	"id": "elixiradventures",
 	"version": "${version}",
-	"name": "ElixirAdventures",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Elixir Adventures",
+	"description": "Currently, this mod adds a charged pickaxe and multiple apples that give different effects to the player and we plan to add a lot more! Keep in mind that there may be bugs.",
 	"authors": [
-		"Me!"
+		"LuckElixir",
+		"TheManeeter",
+		"yukiwassnatched"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/elixiradventures/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.hsneptune.elixiradventures.ElixirAdventures"
+			"net.hsneptune.elixiradventures.ElixirAdventuresMod"
 		],
+		"client": ["net.hsneptune.elixiradventures.ElixirAdventuresClient"],
 		"fabric-datagen": [
-			"net.hsneptune.elixiradventures.ElixirAdventuresDataGenerator"
+			"net.hsneptune.elixiradventures.ElixirAdventuresGenerator"
 		]
 	},
 	"mixins": [
 		"elixiradventures.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
-		"minecraft": "~1.20.4",
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
