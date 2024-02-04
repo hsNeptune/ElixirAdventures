@@ -29,6 +29,6 @@ public class ElixirAdventuresMod implements ModInitializer {
 		ItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("we hopping on");
 	}
 }
