@@ -3,9 +3,9 @@
 	"id": "elixiradventures",
 	"version": "${version}",
 	"name": "Elixir Adventures",
-	"description": "This is a mod that's designed to add more items to the game to spice it up! Keep in mind that there may be bugs.",
+	"description": "Currently, this mod adds a charged pickaxe and multiple apples that give different effects to the player and we plan to add a lot more! Keep in mind that there may be bugs.",
 	"authors": [
-		"ImperfectCoder0",
+		"LuckElixir",
 		"TheManeeter",
 		"yukiwassnatched"
 	],
