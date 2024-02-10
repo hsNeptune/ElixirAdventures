@@ -3,9 +3,11 @@
 	"id": "elixiradventures",
 	"version": "${version}",
 	"name": "Elixir Adventures",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Currently, this mod adds a charged pickaxe and multiple apples that give different effects to the player and we plan to add a lot more! Keep in mind that there may be bugs.",
 	"authors": [
-		"Me!"
+		"LuckElixir",
+		"TheManeeter",
+		"yukiwassnatched"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,7 +22,7 @@
 		],
 		"client": ["net.hsneptune.elixiradventures.ElixirAdventuresClient"],
 		"fabric-datagen": [
-			"net.hsneptune.elixiradventures.ElixirAdventuresDataGenerator"
+			"net.hsneptune.elixiradventures.ElixirAdventuresGenerator"
 		]
 	},
 	"mixins": [
