@@ -1,6 +1,7 @@
 package net.hsneptune.elixiradventures.item;
 
 import net.hsneptune.elixiradventures.ElixirAdventuresMod;
+import net.hsneptune.elixiradventures.item.food.CombatApple;
 import net.hsneptune.elixiradventures.item.food.DApple;
 import net.hsneptune.elixiradventures.item.food.EApple;
 import net.hsneptune.elixiradventures.item.food.IApple;
@@ -21,6 +22,7 @@ public class ModItems {
     public static final Item IRON_APPLE = registerItem("iron_apple", new IApple(new FabricItemSettings().food(IApple.IAppleFood)));
     public static final Item DIAMOND_APPLE = registerItem("diamond_apple", new DApple(new FabricItemSettings().food(DApple.DAppleFood)));
     public static final Item EMERALD_APPLE = registerItem("emerald_apple", new EApple(new FabricItemSettings().food(EApple.EAppleFood)));
+    public static final Item COMBAT_APPLE = registerItem("combat_apple", new EApple(new FabricItemSettings().food(CombatApple.CombatAppleFood)));
     public static final Item UNCHARGED_PICKAXE = registerItem("uncharged_pickaxe", new ChargedPickaxeItem(0, ChargedToolMaterial.INSTANCE, new FabricItemSettings()));
     public static final Item CHARGED_PICKAXE_TIER_1 = registerItem("charged_pickaxe_t1", new ChargedPickaxeItem(1, ChargedToolMaterial.INSTANCE, new FabricItemSettings()));
     public static final Item CHARGED_PICKAXE_TIER_2 = registerItem("charged_pickaxe_t2", new ChargedPickaxeItem(2, ChargedToolMaterial.INSTANCE, new FabricItemSettings()));
@@ -32,9 +34,10 @@ public class ModItems {
         entries.add(IRON_APPLE);
         entries.add(DIAMOND_APPLE);
         entries.add(EMERALD_APPLE);
+        entries.add(COMBAT_APPLE);
     }
 
-    private static void addItemsToWeaponryItemGroup(FabricItemGroupEntries entries){
+    private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries){
         entries.add(UNCHARGED_PICKAXE);
         entries.add(CHARGED_PICKAXE_TIER_1);
         entries.add(CHARGED_PICKAXE_TIER_2);
@@ -46,7 +49,7 @@ public class ModItems {
 
     public static void registerModItems(){
         ElixirAdventuresMod.LOGGER.info("Mod items registered baby! " + ElixirAdventuresMod.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToWeaponryItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodsTabItemGroup);
 
 

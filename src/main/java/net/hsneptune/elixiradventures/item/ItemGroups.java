@@ -19,6 +19,7 @@ public class ItemGroups {
                 entries.add(ModItems.IRON_APPLE);
                 entries.add(ModItems.DIAMOND_APPLE);
                 entries.add(ModItems.EMERALD_APPLE);
+                entries.add(ModItems.COMBAT_APPLE);
                 entries.add(ModItems.UNCHARGED_PICKAXE);
                 entries.add(ModItems.CHARGED_PICKAXE_TIER_1);
                 entries.add(ModItems.CHARGED_PICKAXE_TIER_2);

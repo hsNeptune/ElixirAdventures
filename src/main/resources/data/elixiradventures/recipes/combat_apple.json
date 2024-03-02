@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "elixiradventures:diamond_apple"
+    },
+    {
+      "item": "elixiradventures:diamond_apple"
+    },
+    {
+      "item": "elixiradventures:diamond_apple"
+    },
+    {
+      "item": "elixiradventures:diamond_apple"
+    }
+  ],
+  "result": {
+    "item": "elixiradventures:combat_apple"
+  }
+}
