@@ -26,6 +26,7 @@ public abstract class EntityMixin implements LivingEntityMixin  {
             System.out.println("It was a player!");
             ItemStack itemStack = ((PlayerEntity) (Object) this).getMainHandStack();
             if (((((LivingEntity) (Object) this).getWorld().getTime() - this.lastLightningStrike) > 20)) {
+
                 if ((itemStack.getItem()) == UNCHARGED_PICKAXE) {
                     ((LivingEntity) (Object) this).clearActiveItem();
                     ((PlayerEntity) (Object) this).equipStack(EquipmentSlot.MAINHAND, new ItemStack(CHARGED_PICKAXE_TIER_1));
